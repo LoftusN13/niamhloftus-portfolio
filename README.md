@@ -32,7 +32,7 @@ The structure of the site is divided across two main pages.
 
 #### *Home Page*
 - The landing page of the site is a scrolling single-page with navigation that allows the user to skip down or up the page to the corresponding sections.
-- Contains three information different sections; About Me, Education and Work Experience.
+- Contains three different information sections; About Me, Education and Work Experience.
 - Contains a contact section with a contact form, contact details and links to social media accounts **GitHub** and **LinkedIn**.
 
 #### *Projects Page*
@@ -66,7 +66,7 @@ Additional PNG wireframes can be found below;
 
 Additional PDF wireframes can be found below;
 - [Mobile Wireframes](documentation/wireframes/mobile)
-- [Desktop Wireframes](documentation/wireframes/dekstop)
+- [Desktop Wireframes](documentation/wireframes/desktop)
 
 ### **Surface**
 
