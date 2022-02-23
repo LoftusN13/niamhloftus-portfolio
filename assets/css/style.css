@@ -1,0 +1,8 @@
+/*-------------------------Header----------------------- */ 
+.offcanvas {
+    width: 50vw;
+}
+
+.offcanvas-backdrop {
+    background: none;
+}
