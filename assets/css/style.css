@@ -12,6 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding: 1rem 1rem 1rem 2rem;
+    border: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -44,6 +45,20 @@ body {
     width: 80%;
     margin: 0.2rem 0;
     color: #D5F3CD;
+}
+
+/*-----------------------Intro Section--------------------- */ 
+.intro-section {
+    background-color: #D5F3CD;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.intro-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    padding-bottom: 1.5rem;
 }
 
 /*-----------------------Media Queries--------------------- */ 
