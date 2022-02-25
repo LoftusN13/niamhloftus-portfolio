@@ -37,7 +37,7 @@
     <!-- Intro Section -->
     <div class="intro-section">
         <img class="intro-img" src="./assets/images/hike.jpeg" alt="">
-        <h1>NIAMH <br>
+        <h1><span class="first-name">NIAMH</span><br>
             LOFTUS</h1>
         <p>Junior Software Developer</p>
     </div>
@@ -74,14 +74,55 @@
         </button>
     </div>
     
-    <!-- Contact Section -->
+    <!-- CONTACT SECTION -->
     <div class="contact-section">
         <h2>Contact Me</h2>
-        <p>Invite to contact message here</p>
-        <form name="contactForm" id="contactForm">
+        <p>
+            Please feel free to reach out to me using any of the options below!
+        </p>
 
+        <!-- contact details -->
+        <p class="contact-details">
+            Galway, Ireland <br>
+            <i class="fa-solid fa-at"></i> : loftus.niamh13@gmail.com <br>
+            <i class="fa-solid fa-phone"></i> : <a href="tel:+353857407549">+353 857407549</a>
+        </p>
+
+         <!-- social media links -->
+         <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/niamhloftus13/" target="_blank">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+            </a>
+            <a href="https://github.com/LoftusN13" target="_blank">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                <span class="sr-only">GitHub</span>
+            </a>
+        </div>
+
+        <!-- contact form -->
+        <form name="contactForm" id="contactForm">
+            <div class="form-group">
+                <label for="fullname">Your Name *</label><br>
+                <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Name" required><br>
+                
+                <label for="email">Your Email *</label><br>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required><br>
+
+                <label for="fullname">Subject *</label><br>
+                <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Subject" required><br>
+
+                <label for="message">Your Message *</label><br>
+                <textarea name="message" id="message" class="form-control" cols="30" rows="10" placeholder="Message" required></textarea><br>
+                
+                <small>* Required</small><br>
+
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </div>
         </form>
+        
     </div>
+    <!-- End of CONTACT SECTION -->
 
     <!-- FOOTER -->
     <footer>
