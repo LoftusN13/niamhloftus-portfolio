@@ -4,12 +4,12 @@
 /*-------------------------General----------------------- */ 
 body {
     color: #383838;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*-------------------------Header----------------------- */ 
 .navbar {
     background-color: #D5F3CD;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding: 1rem 1rem 1rem 2rem;
     border: none;
@@ -52,6 +52,7 @@ body {
     background-color: #D5F3CD;
     text-align: center;
     padding-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 
 .intro-img {
@@ -59,6 +60,72 @@ body {
     object-fit: cover;
     object-position: 50% 50%;
     padding-bottom: 1.5rem;
+}
+
+/*-----------------------About Section--------------------- */ 
+.about-section {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.about-section h2 {
+    padding-bottom: 2rem;
+}
+
+/*---------------------Education Section------------------- */ 
+.education-section {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.education-section h2 {
+    padding-bottom: 2rem;
+}
+
+/*-----------------------Work Section---------------------- */ 
+.work-section {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.work-section h2 {
+    padding-bottom: 2rem;
+}
+
+/*-------------------------Footer----------------------- */ 
+footer {
+    background-color: #383838;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #D5F3CD;
+    text-shadow: .05rem .05rem .1rem #000;
+}
+
+.footer-icons i {
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.footer-link {
+    padding: 1rem;
+}
+
+footer .copyright {
+    font-size: .8rem;
+    font-weight: 300;
+    text-align: right;
+    padding-top: 1rem;
 }
 
 /*-----------------------Media Queries--------------------- */ 
