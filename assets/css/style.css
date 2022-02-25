@@ -66,7 +66,6 @@ body {
 .about-section {
     text-align: center;
     padding: 1.5rem;
-    margin-bottom: 4rem;
 }
 
 .about-section h2 {
@@ -88,11 +87,43 @@ body {
 .work-section {
     text-align: center;
     padding: 1.5rem;
-    margin-bottom: 4rem;
 }
 
 .work-section h2 {
     padding-bottom: 2rem;
+}
+
+/*-----------------------Contact Section--------------------- */ 
+.contact-section {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.contact-section h2 {
+    padding-bottom: 2rem;
+}
+
+/*-----------------------Projects Links--------------------- */
+.projects-link {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.projects-link button {
+    background-color: #D5F3CD;
+    border: none;
+    padding: 1rem 4rem;
+    font-size: .9rem;
+}
+
+.projects-link a {
+    text-decoration: none;
+    color: #383838;
+}
+.projects-link a:hover {
+    text-shadow: .01rem .01rem .01rem #000;
 }
 
 /*-------------------------Footer----------------------- */ 
