@@ -1,10 +1,30 @@
 /*-----------------------Google Fonts--------------------- */ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /*-------------------------General----------------------- */ 
 body {
     color: #383838;
     font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3.2rem;
+}
+
+h1 .first-name {
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2.2rem;
+    padding-bottom: 3rem;
 }
 
 /*-------------------------Header----------------------- */ 
@@ -68,19 +88,11 @@ body {
     padding: 1.5rem;
 }
 
-.about-section h2 {
-    padding-bottom: 2rem;
-}
-
 /*---------------------Education Section------------------- */ 
 .education-section {
     text-align: center;
     padding: 1.5rem;
     margin-bottom: 4rem;
-}
-
-.education-section h2 {
-    padding-bottom: 2rem;
 }
 
 /*-----------------------Work Section---------------------- */ 
@@ -89,19 +101,61 @@ body {
     padding: 1.5rem;
 }
 
-.work-section h2 {
-    padding-bottom: 2rem;
-}
-
 /*-----------------------Contact Section--------------------- */ 
 .contact-section {
     text-align: center;
     padding: 1.5rem;
-    margin-bottom: 4rem;
+    margin: 0 1.5rem 4rem 1.5rem;
+    border: #D5F3CD .4rem solid;
 }
 
-.contact-section h2 {
-    padding-bottom: 2rem;
+.contact-details {
+    padding: 1rem;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #383838;
+}
+.contact-details a:hover {
+    color: #1E824C;
+    font-weight: 500;
+}
+
+.contact-details i {
+    color: #1E824C;
+}
+
+.contact-icons a {
+    text-decoration: none;
+    color: #1E824C;
+}
+.contact-icons a:hover {
+    text-shadow: .04rem .04rem .08rem #000;
+}
+
+.contact-icons i {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#contactForm {
+    padding: 1rem;
+}
+
+#contactForm label,
+#contactForm small {
+    float: left;
+}
+
+#contactForm #submit {
+    background-color: #D5F3CD;
+    border: none;
+    padding: 1rem 4rem;
+    font-size: .9rem;
+}
+#contactForm #submit:hover {
+    box-shadow: .1rem .1rem .5rem #000;
 }
 
 /*-----------------------Projects Links--------------------- */
@@ -122,8 +176,9 @@ body {
     text-decoration: none;
     color: #383838;
 }
-.projects-link a:hover {
-    text-shadow: .01rem .01rem .01rem #000;
+
+.projects-link button:hover {
+    box-shadow: .1rem .1rem .5rem #000;
 }
 
 /*-------------------------Footer----------------------- */ 
