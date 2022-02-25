@@ -92,7 +92,37 @@ h2 {
 .education-section {
     text-align: center;
     padding: 1.5rem;
-    margin-bottom: 4rem;
+    margin: 0 1.5rem 4rem 1.5rem;
+    border: #D5F3CD .4rem solid;
+}
+
+.year {
+    color: #1E824C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-family: 'EB Garamond', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.title2 {
+    font-weight: 500;
+}
+
+.edu-hr {
+    margin: 1.5rem 0;
+}
+
+.description a {
+    text-decoration: none;
+    color: #383838;
+}
+
+.description a:hover {
+    color: #1E824C;
 }
 
 /*-----------------------Work Section---------------------- */ 
@@ -105,18 +135,6 @@ h2 {
 
 .work-hr {
     margin: 1.5rem 0;
-}
-
-.work-title {
-    font-family: 'EB Garamond', sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.work-year {
-    color: #1E824C;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /*-----------------------Contact Section--------------------- */ 
