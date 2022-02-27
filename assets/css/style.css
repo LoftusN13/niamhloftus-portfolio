@@ -235,6 +235,30 @@ h2 {
     padding: 1.5rem;
 }
 
+.project-card-panels {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.project-tech {
+    font-family: 'EB Garamond', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.project-card-panels a {
+    text-decoration: none;
+    color: #1E824C;
+}
+.project-card-panels a:hover {
+    text-shadow: .04rem .04rem .06rem #000;
+}
+
+.project-card-panels i {
+    float: right;
+    font-size: 1.8rem;
+    padding: .5rem;
+}
 
 /*-------------------------Footer----------------------- */ 
 footer {
