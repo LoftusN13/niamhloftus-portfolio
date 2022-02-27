@@ -29,7 +29,7 @@ h2 {
 
 .vertical {
     border-left: .1rem solid #D5F3CD;
-    height: 8rem;
+    height: 10rem;
     position: absolute;
     left: 50%;
     z-index: -1;
@@ -100,7 +100,7 @@ h2 {
 .education-section {
     text-align: center;
     padding: 1.5rem;
-    margin: 0 1.5rem 6rem 1.5rem;
+    margin: 0 1.5rem 8rem 1.5rem;
     border: #D5F3CD .4rem solid;
     background-color: #fff;
 }
@@ -228,6 +228,13 @@ h2 {
 .projects-link button:hover {
     box-shadow: .1rem .1rem .5rem #000;
 }
+
+/*-----------------------Projects Section--------------------- */ 
+.projects-section {
+    text-align: center;
+    padding: 1.5rem;
+}
+
 
 /*-------------------------Footer----------------------- */ 
 footer {
