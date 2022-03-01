@@ -35,6 +35,29 @@ h2 {
     z-index: -1;
 }
 
+.scroll-btn {
+    display: none;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    z-index: 99;
+    border: #fff solid 0.07rem;
+    border-radius: 2rem;
+    background-color: #383838;
+}
+.scroll-btn:hover {
+    border: #D5F3CD solid 0.07rem;
+    box-shadow: .1rem .1rem .5rem #000;
+}
+
+.scroll-btn i {
+    color: #fff;
+}
+.scroll-btn i:hover {
+    color: #D5F3CD;
+    text-shadow: .05rem .05rem .1rem #000;
+}
+
 /*-------------------------Header----------------------- */ 
 .navbar {
     background-color: #D5F3CD;
