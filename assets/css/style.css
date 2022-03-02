@@ -9,14 +9,12 @@ body {
 }
 
 h1 {
-    font-family: 'EB Garamond', sans-serif;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 400;
     font-size: 3.2rem;
 }
 
 h1 .first-name {
-    font-weight: 400;
+    font-weight: 200;
 }
 
 h2 {
@@ -28,7 +26,7 @@ h2 {
 }
 
 .vertical {
-    border-left: .1rem solid #D5F3CD;
+    border-left: .09rem solid #D5F3CD;
     height: 10rem;
     position: absolute;
     left: 50%;
@@ -113,17 +111,29 @@ h2 {
     padding-bottom: 1.5rem;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 /*-----------------------About Section--------------------- */ 
 .about-section {
     text-align: center;
     padding: 1.5rem;
+    width: 90%; 
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*---------------------Education Section------------------- */ 
 .education-section {
     text-align: center;
     padding: 1.5rem;
-    margin: 0 1.5rem 8rem 1.5rem;
+    width: 90%; 
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
     border: #D5F3CD .4rem solid;
     background-color: #fff;
 }
@@ -161,7 +171,11 @@ h2 {
 .work-section {
     text-align: center;
     padding: 1.5rem;
-    margin: 0 1.5rem 4rem 1.5rem;
+    width: 90%; 
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
     border: #D5F3CD .4rem solid;
     background-color: #fff;
 }
@@ -174,7 +188,11 @@ h2 {
 .contact-section {
     text-align: center;
     padding: 1.5rem;
-    margin: 0 1.5rem 4rem 1.5rem;
+    width: 90%; 
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
     border: #D5F3CD .4rem solid;
     background-color: #fff;
 }
@@ -336,5 +354,42 @@ footer .copyright {
 
     .offcanvas {
         padding: 0;
+    }
+    .about-section,
+    .education-section,
+    .work-section,
+    .contact-section {
+        width: 85%; 
+        height: 85%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-section,
+    .education-section,
+    .work-section,
+    .contact-section {
+        width: 70%; 
+        height: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .about-section,
+    .education-section,
+    .work-section,
+    .contact-section {
+        width: 60%; 
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .about-section,
+    .education-section,
+    .work-section,
+    .contact-section {
+        width: 50%; 
+        height: 50%;
     }
 }
