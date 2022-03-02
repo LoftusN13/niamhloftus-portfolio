@@ -6,7 +6,7 @@ window.onscroll = function() {
 
 /* display button once user has started scrolling */
 function scrollFunction() {
-    if (document.body.scrollTop > 500  || document.documentElement.scrollTop > 500) {
+    if (document.body.scrollTop > 500  || document.documentElement.scrollTop > 500 && screen.width < 576) {
         scrollButton.style.display = "block";
     }
     else {
