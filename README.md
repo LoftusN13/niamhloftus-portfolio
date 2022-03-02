@@ -79,11 +79,18 @@ Additional PDF wireframes can be found below;
 
 ### **Technologies**
 - [Balsamiq](https://balsamiq.com/) - used to create wireframes.
+- [Bootstrap](https://getbootstrap.com/) - used throughout the site for responsive layouts and styling.
+- [Canva](https://www.canva.com/) - used to source main image.
 - [Coolors](https://coolors.co/) - used for choosing colour scheme and for contrast-checking of chosen colours.
+- [Font Awesome](https://fontawesome.com/) - used for all icons on the site.
 - [Git](https://git-scm.com/) - version control software used to commit and push code to GitHub.
 - [GitHub](https://github.com/) - hosting site used to store the source code of the site.
 - [GitPod](https://www.gitpod.io/) - IDE used to develop the site.
-- [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for inspecting various page elements and identifying any layout issues/bugs. 
+- [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for inspecting various page elements and identifying any layout issues/bugs.
+- [Google Fonts](https://fonts.google.com/specimen/Montserrat) - used to import Montserrat and EB Garamond fonts.
+- [TingPNG](https://tinypng.com/) - used to resize images for web.
 
 ---
 ## <p align="center">**Credits**</p>
+### **Media**
+- Image on *Home* page by *wattanaracha* on [Canva](https://www.canva.com/media/MAEIAQLiWTQ).
