@@ -96,6 +96,47 @@ h2 {
     color: #D5F3CD;
 }
 
+/*-------------------------Side Nav----------------------- */ 
+.side-nav {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    padding-right: 1rem;
+    font-size: .7rem;
+}
+
+.side-nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.side-nav li {
+    padding-bottom: .3rem;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: #383838;
+}
+
+.side-hover {
+    padding-right: .3rem;
+}
+
+.side-icon:hover .fa-circle-notch,
+.side-icon.active .fa-circle-notch,
+.side-icon .fa-circle,
+.side-icon .side-hover {
+    display: none;
+}
+
+.side-icon:hover .fa-circle,
+.side-icon:hover .side-hover,
+.side-icon.active .fa-circle,
+.side-icon.active .side-hover {
+    display: inline;
+}
+
 /*-----------------------Intro Section--------------------- */ 
 .intro-section {
     background-color: #D5F3CD;
