@@ -18,3 +18,15 @@ function scrollToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+/* Side Navigation for index.html
+add and remove active class when each
+nav element is clicked  */
+const links = document.querySelectorAll('.side-icon');
+
+function toggleActiveClass() {
+    links.forEach(link => link.classList.remove('active'));
+    this.classList.add('active');
+}
+
+links.forEach(link => link.addEventListener("click", toggleActiveClass));
