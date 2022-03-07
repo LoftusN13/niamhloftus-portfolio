@@ -69,6 +69,24 @@ Additional PDF wireframes can be found below;
 - [Desktop Wireframes](documentation/wireframes/desktop)
 
 ### **Surface**
+#### **Design**
+The site needs to be consistent, appealing and uncluttered. Sections will be clearly laid out and separated, leaving sufficient whitespace to avoid visual overload.
+
+
+#### **Fonts** 
+The Montserrat and EB Garamond fonts will be used for the site as they have a nice contrast. Montserrat has that clean and modern look, whereas EB Garamond is more classic and is also used on my CV. I like the idea of having similar design elements between both CV and website.
+
+#### **Colour**
+The colour scheme is simple: a white background with a soft, calming green helping to highlight and separate sections. The addition of the darker green used for some icons and paragraph elements is the same shade I use in my personal CV, helping to tie the two together.
+
+I used [Coolors](https://coolors.co/) to help in choosing the colour scheme. I also used the site's *Contrast Checker* tool to ensure my colours contrasted well together so that all content could be seen and read without strain or difficulty.
+
+- D5F3CD Tea Green 
+- 383838 Jet
+- FFFFFF White
+- 1E824C Sea Green
+
+![Colour Scheme](documentation/colour-scheme.png)
 
 ---
 ## <p align="center">**Technologies Used**</p>
