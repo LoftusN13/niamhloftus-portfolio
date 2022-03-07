@@ -98,6 +98,7 @@ h2 {
 
 /*-------------------------Side Nav----------------------- */ 
 .side-nav {
+    display: none;
     position: fixed;
     top: 30%;
     right: 0;
@@ -439,6 +440,9 @@ footer .copyright {
         padding-top: 1rem;
         padding-left: 2rem;
     }
+    .side-nav {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -456,8 +460,6 @@ footer .copyright {
         padding-top: 2rem;
         padding-left: 6rem;
     }
-    
-
 }
 
 @media only screen and (min-width: 1200px) {
