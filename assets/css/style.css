@@ -100,15 +100,17 @@ h2 {
 .side-nav {
     display: none;
     position: fixed;
-    top: 30%;
+    top: 35%;
     right: 0;
-    padding-right: 1rem;
+    padding: 0 1rem 0 0;
     font-size: .7rem;
+    background-color: transparent;
 }
 
 .side-nav ul {
     list-style: none;
     text-align: right;
+    display: block;
 }
 
 .side-nav li {
@@ -120,21 +122,25 @@ h2 {
     color: #383838;
 }
 
+.side-nav a:hover {
+    color: #383838;
+}
+
 .side-hover {
     padding-right: .3rem;
 }
 
-.side-icon:hover .fa-circle-notch,
-.side-icon.active .fa-circle-notch,
-.side-icon .fa-circle,
-.side-icon .side-hover {
+.side-nav-link:hover .fa-circle-notch,
+.side-nav-link.active .fa-circle-notch,
+.side-nav-link .fa-circle,
+.side-nav-link .side-hover {
     display: none;
 }
 
-.side-icon:hover .fa-circle,
-.side-icon:hover .side-hover,
-.side-icon.active .fa-circle,
-.side-icon.active .side-hover {
+.side-nav-link:hover .fa-circle,
+.side-nav-link:hover .side-hover,
+.side-nav-link.active .fa-circle,
+.side-nav-link.active .side-hover {
     display: inline;
 }
 
