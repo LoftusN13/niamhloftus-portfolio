@@ -349,6 +349,13 @@ h2 {
     margin-right: auto;
 }
 
+.project-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: .12rem .18rem .4rem #D3D3D3;
+    height: 100%; 
+}
+
 .project-card a {
     text-decoration: none;
     color: #383838;
@@ -500,7 +507,7 @@ footer .copyright {
         height: 100%;
     }
     .card-img-top {
-        height: 20vw;
+        height: 15vw;
     }
 }
 
