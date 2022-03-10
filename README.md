@@ -112,3 +112,4 @@ I used [Coolors](https://coolors.co/) to help in choosing the colour scheme. I a
 ## <p align="center">**Credits**</p>
 ### **Media**
 - Image on *Home* page by *wattanaracha* on [Canva](https://www.canva.com/media/MAEIAQLiWTQ).
+- Thumbnail image for Pick Your Poison on *Projects* page by *Getty Images* on [Canva](https://www.canva.com/photos/MADarVk7hps-blackberry-cocktail/).
