@@ -30,3 +30,28 @@ function toggleActiveClass() {
 }
 
 links.forEach(link => link.addEventListener("click", toggleActiveClass));
+
+
+/* EmailJS function on contact form submission
+Sends inputted form data to my email */
+function sendEmail(contactForm){
+    emailjs.send("gmail", "niamh-portfolio",{
+        "from_name": contactForm.fullname.value,
+        "from_email": contactForm.email.value,
+        "subject": contactForm.subject.value,
+        "message": contactForm.message.value
+    })
+    .then(
+        /* Alert user to successful form submission */
+        function(response) {
+            document.getElementById("submit-msg").innerHTML = "Thank you! Your message has been successfully sent!";
+        },
+        /* Alert user to unsuccessful form submission */
+        function(error) {
+             document.getElementById("submit-msg").innerHTML = "Uh-oh! Something has gone wrong; message has not been sent!";
+        }
+    );
+
+    document.getElementById("contactForm").reset();
+    return false;
+}

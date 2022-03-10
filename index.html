@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e4de1be769.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("xf5sbzPbG16gdlyJP");
+        })();
+    </script>
     <title>Portfolio</title>
 </head>
 
@@ -251,7 +257,7 @@
         </div>
 
         <!-- contact form -->
-        <form name="contactForm" id="contactForm">
+        <form name="contactForm" id="contactForm" onsubmit="return sendEmail(this);">
             <div class="form-group">
                 <label for="fullname">Your Name *</label><br>
                 <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Name" required><br>
@@ -259,8 +265,8 @@
                 <label for="email">Your Email *</label><br>
                 <input type="email" name="email" id="email" class="form-control" placeholder="Email" required><br>
 
-                <label for="fullname">Subject *</label><br>
-                <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Subject" required><br>
+                <label for="subject">Subject *</label><br>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required><br>
 
                 <label for="message">Your Message *</label><br>
                 <textarea name="message" id="message" class="form-control" cols="30" rows="5" placeholder="Message" required></textarea><br>
@@ -270,6 +276,8 @@
                 <input type="submit" name="submit" id="submit" value="Submit">
             </div>
         </form>
+
+        <p id="submit-msg"></p>
         
     </div>
     <!-- End of CONTACT SECTION -->
