@@ -335,31 +335,51 @@ h2 {
 .projects-section {
     text-align: center;
     padding: 1.5rem;
+    width: 90%; 
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-card-panels {
     text-align: center;
     padding: 1.5rem;
+    --bs-gutter-x: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.project-tech {
-    font-family: 'EB Garamond', sans-serif;
-    font-style: italic;
-    font-weight: 600;
-}
-
-.project-card-panels a {
+.project-card a {
     text-decoration: none;
+    color: #383838;
+}
+.project-card a:hover {
     color: #1E824C;
 }
-.project-card-panels a:hover {
-    text-shadow: .04rem .04rem .06rem #000;
+
+.project-card h5 {
+    font-weight: 300;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
 }
 
 .project-card-panels i {
+    color: #D5F3CD;
+    text-shadow: .03rem .03rem .1rem #000;
     float: right;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: .5rem;
+}
+.project-card-panels i:hover {
+    text-shadow: .06rem .06rem .1rem #000;
+}
+
+.project-tech {
+    color: #1E824C;
 }
 
 /*-------------------------Footer----------------------- */ 
@@ -400,7 +420,9 @@ footer .copyright {
     .about-section,
     .education-section,
     .work-section,
-    .contact-section {
+    .contact-section,
+    .projects-section,
+    .project-card-panels {
         width: 85%; 
         height: 85%;
     }
@@ -432,7 +454,9 @@ footer .copyright {
     .about-section,
     .education-section,
     .work-section,
-    .contact-section {
+    .contact-section,
+    .projects-section,
+    .project-card-panels {
         width: 70%; 
         height: 70%;
     }
@@ -449,13 +473,18 @@ footer .copyright {
     .side-nav {
         display: block;
     }
+    .card-img-top {
+        height: 30vw;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .about-section,
     .education-section,
     .work-section,
-    .contact-section {
+    .contact-section,
+    .projects-section,
+    .project-card-panels {
         width: 60%; 
         height: 60%;
     }
@@ -466,13 +495,21 @@ footer .copyright {
         padding-top: 2rem;
         padding-left: 6rem;
     }
+    .project-card-panels {
+        width: 100%; 
+        height: 100%;
+    }
+    .card-img-top {
+        height: 20vw;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     .about-section,
     .education-section,
     .work-section,
-    .contact-section {
+    .contact-section,
+    .projects-section {
         width: 50%; 
         height: 50%;
     }
