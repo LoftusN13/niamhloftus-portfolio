@@ -219,12 +219,16 @@ h2 {
     margin: 1.5rem 0;
 }
 
-.description a {
+.description a,
+.intro-largescreen a,
+.intro-section a  {
     text-decoration: none;
     color: #383838;
 }
 
-.description a:hover {
+.description a:hover,
+.intro-largescreen a:hover,
+.intro-section a:hover  {
     color: #1E824C;
 }
 
