@@ -319,19 +319,16 @@ h2 {
     margin-bottom: 4rem;
 }
 
-.projects-link button {
+.projects-link a {
+    text-decoration: none;
+    color: #383838;
     background-color: #D5F3CD;
     border: none;
     padding: 1rem 4rem;
     font-size: .9rem;
 }
 
-.projects-link a {
-    text-decoration: none;
-    color: #383838;
-}
-
-.projects-link button:hover {
+.projects-link a:hover {
     box-shadow: .1rem .1rem .5rem #000;
 }
 
