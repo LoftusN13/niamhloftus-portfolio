@@ -149,7 +149,7 @@ h2 {
     background-color: #D5F3CD;
     text-align: center;
     padding-bottom: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
 }
 
 .intro-img {
@@ -165,6 +165,7 @@ h2 {
 
 .intro-largescreen {
     background-color: #D5F3CD;
+    margin-bottom: 1.5rem;
 }
 
 .largescreen-img {
