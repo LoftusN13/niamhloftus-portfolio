@@ -1,4 +1,9 @@
-# <p align="center">**Personal Portfolio Website**</p>
+# <p align="center">**Niamh Loftus Portfolio Site**</p>
+![Multi-Device Mockup](documentation/mockup.png)
+
+### View the live project [here.](http://www.niamhloftus.com/)
+
+My own personal website built to showcase projects I have created.
 
 ---
 ## Contents
@@ -106,6 +111,7 @@ I used [Coolors](https://coolors.co/) to help in choosing the colour scheme. I a
 - [GitPod](https://www.gitpod.io/) - IDE used to develop the site.
 - [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for inspecting various page elements and identifying any layout issues/bugs.
 - [Google Fonts](https://fonts.google.com/specimen/Montserrat) - used to import Montserrat and EB Garamond fonts.
+- [Techsini](http://techsini.com/multi-mockup/index.php) -  used to create the multi-device image found at the top of this file.
 - [TingPNG](https://tinypng.com/) - used to resize images for web.
 
 ---
@@ -113,3 +119,6 @@ I used [Coolors](https://coolors.co/) to help in choosing the colour scheme. I a
 ### **Media**
 - Image on *Home* page by *wattanaracha* on [Canva](https://www.canva.com/media/MAEIAQLiWTQ).
 - Thumbnail image for Pick Your Poison on *Projects* page by *Getty Images* on [Canva](https://www.canva.com/photos/MADarVk7hps-blackberry-cocktail/).
+
+### **Content**
+- All written content on the site including each Project is my own.
